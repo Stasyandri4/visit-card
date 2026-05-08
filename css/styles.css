@@ -1,0 +1,112 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+abbr,
+a {
+  text-decoration: none;
+}
+
+.nickname {
+  display: flex;
+  font-size: 24px;
+  color: #8d8d8d;
+  justify-content: center;
+  width: 200px;
+  padding-left: 20px;
+}
+
+.nickname-accent {
+  color: #f4af30;
+}
+
+.nickname-accent:hover,
+.nickname-accent:focus,
+.nickname-accent:active {
+  color: #05a505;
+}
+
+.nickname:hover,
+.nickname:focus,
+.nickname:active {
+  font-size: 30px;
+  color: #220196;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation {
+  font-size: 20px;
+}
+
+.menu li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 70px;
+}
+
+.job-call {
+  text-align: center;
+  font-weight: 500;
+}
+
+.job-button {
+  display: block;
+  width: 90px;
+  font-size: 30px;
+  cursor: pointer;
+  background-color: #09ae4b;
+  color: #fffff3;
+  border-radius: 19px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section-heading {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 450;
+}
+
+.donate {
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wishlist-item {
+  border: 2px dotted #05a505;
+  border-radius: 10px;
+}
+
+.circle {
+  display: flex;
+  background-color: #05a505;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  justify-content: space-between;
+  margin-bottom: -100px;
+}
+
+.cube {
+  display: flex;
+  background-color: rgba(142, 35, 35, 70%);
+  height: 200px;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+}
